@@ -1,9 +1,7 @@
 module mod_1d_arr;
   int arr[5];
-  int arr2[2:0];
   initial begin 
     foreach(arr[i])begin
-      
       arr[i]=$random;
       $display("arr[%0d]=%d",i,arr[i]);
     end
