@@ -12,3 +12,10 @@ module mixed_arr;
     $display("arr[1][1]=%0b",arr[1][1]);
   end
 endmodule
+
+/*Output
+arr[3]=23,100011
+arr[3][5]=1
+arr[1]=fa,11111010
+arr[1][1]=1
+*/
