@@ -11,3 +11,11 @@ module dyn_arr;
       $display("dyn[%0d]=%0d",i,dyn[i]);
   end
 endmodule
+/*
+Output
+dyn[0]=4
+dyn[1]=7
+dyn[2]=2
+dyn[3]=9
+dyn[4]=10
+*/
