@@ -56,3 +56,22 @@ $display("Queue");
 $display(q);
 end
 endmodule
+
+/*
+OUTPUT
+Size of Queue is:7
+Queue
+'{2,43,6,32,5,77,34}
+Size of Queue after insertion is:8
+Queue
+'{2,43,6,4,32,5,77,34}
+Size of Queue after push back and pop front is:8
+Queue
+'{43,6,4,32,5,77,34,78}
+Size of Queue after push front and pop back is:8
+Queue
+'{88,43,6,4,32,5,77,34}
+Size of Queue after delete is:7
+Queue
+'{88,43,6,4,32,77,34}
+*/
