@@ -12,15 +12,15 @@ module union_unpacked;
   initial begin
     d1.a=32'hffff_ffff;
     x=d1.b;
-    $display("x=%0h",x);
+    $display("x=%h",x);
     
     d1.b=8'h01;
     x=d1.a;
-    $display("x=%0h",x);
+    $display("x=%h",x);
     
     d1.c=16'h1010;
     x=d1.a;
-    $display("x=%0h",x);
+    $display("x=%h",x);
   end
 endmodule
 
