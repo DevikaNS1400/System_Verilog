@@ -29,6 +29,9 @@ $display("String2 after atoi is %0d",y);
 
 s2.itoa(y);
 $display("itoa(y)=%s",s2);
+  
+end
+endmodule
 
 /*
 OUTPUT
@@ -45,5 +48,3 @@ String1 is hello world
 
 */
 
-end
-endmodule
