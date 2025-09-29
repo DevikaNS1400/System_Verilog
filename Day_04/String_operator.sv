@@ -3,7 +3,7 @@ string s1="Hello";
 string s2="World";
 string s3="compare";
 string s4="compare";
-string s5,s6;
+string s5,s6,s9;
 string s7="Apple";
 string s8="Banana";
 integer s1_len,s2_len,s3_len,s4_len;
@@ -49,7 +49,9 @@ if(s8>s7)
 
    s6={4{s1[4]}};
   $display("Replication operation on s1[4]:%s",s6);
-   
+
+   s9=s8.substr(1,3);
+   $display("Substring of s8 is %s",s9);
 end
 endmodule
 
@@ -67,4 +69,5 @@ String s1: Hello is of length 5
 # String s8 is greater tham s7
 # New string is : Hello World
 # Replication operation on s1[4]:oooo
+# Substring of s8 is ana
 */
