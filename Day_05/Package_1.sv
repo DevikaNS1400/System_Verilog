@@ -20,3 +20,11 @@ tr.display();
 pkg_function();
 end
 endmodule
+
+/*
+OUTPUT
+
+data=5
+# Inside pkg_funct
+
+*/
