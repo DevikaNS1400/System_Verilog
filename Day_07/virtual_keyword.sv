@@ -19,3 +19,8 @@ b_c=e_c;
 b_c.display();
 end
 endmodule
+
+/*
+OUTPUT
+# Inside extended class
+*/
