@@ -5,6 +5,7 @@ class packet;
 
   function new();
      no_of_pkts_crtd++;
+     pkts_id=no_of_pkts_crtd;
   endfunction
 
   static function void display_pkts_crtd();
@@ -27,11 +28,11 @@ endmodule
 /*
 OUTPUT
 
-Packet id is 0
+Packet id is 1
 # 	1 packets created
-# 	Packet id is 0
+# 	Packet id is 2
 # 	2 packets created
-# 	Packet id is 0
+# 	Packet id is 3
 # 	3 packets created
 
 */
