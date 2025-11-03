@@ -20,8 +20,7 @@ packet pkt[3];
  initial begin
     foreach(pkt[i])begin
       pkt[i]=new();
-    end
-    pkt[0].display_pkts_crtd();
+      pkt[i].display_pkts_crtd();
   end
 endmodule
 
@@ -29,6 +28,10 @@ endmodule
 OUTPUT
 
 Packet id is 0
+# 	1 packets created
+# 	Packet id is 0
+# 	2 packets created
+# 	Packet id is 0
 # 	3 packets created
 
 */
