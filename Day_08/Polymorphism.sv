@@ -20,14 +20,15 @@ module poly_mode;
 initial begin 
 ch1 c1=new();
 ch2 c2=new();
-base_class b[2];
+base_class b[3];
 
 b[0]=c1;
 b[1]=c2;
-
+b[2]=new();
+  
 b[0].display();
 b[1].display();
-
+b[2].display();
 end
 endmodule
 
@@ -37,6 +38,6 @@ endmodule
 OUTPUT
 
 Inside ch1 class
-# Inside ch2 class
-
+Inside ch2 class
+Inside base class
 */
